@@ -1,14 +1,12 @@
-import Header from "./Header"
-import Footer from "./Footer";
-import Food from "./Food";
+import Student from "../public/Student";
 
 
 function App() {
   return(
     <>
-        <Header/>
-        <Footer/>
-        <Food/>
+       <Student name="SpongeBob" age={19} isStudent={true}></Student>
+       <Student name="Patrick" age={42} isStudent={false}></Student>
+       <Student name="Sandy" age={90} isStudent={true}></Student>
     </>
             
   );
