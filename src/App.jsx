@@ -1,14 +1,14 @@
-import Header from "./Header"
-import Footer from "./Footer";
-import Food from "./Food";
+import UserGreeting from "./UserGreeting";
 
 
 function App() {
+  
+
   return(
     <>
-        <Header/>
-        <Footer/>
-        <Food/>
+        <UserGreeting isLoggedIn = {true} username = "Newtan"></UserGreeting>
+        <UserGreeting isLoggedIn = {false} username = "amit"></UserGreeting>
+        <UserGreeting isLoggedIn = {true} ></UserGreeting>
     </>
             
   );
