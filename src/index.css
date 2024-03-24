@@ -25,3 +25,12 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgba(237, 25, 25, 0.653);
 }
+
+.Button{
+  background-color: pink;
+  color: rgba(219, 33, 20, 0.46); /*color of the text*/
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: grab;
+}
