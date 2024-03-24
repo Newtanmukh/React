@@ -66,3 +66,17 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.student{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid;
+  color: #646cff;
+}
+
+.student p
+{
+  margin: 0;
+}
