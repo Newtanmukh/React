@@ -1,14 +1,15 @@
-import Header from "./Header"
-import Footer from "./Footer";
-import Food from "./Food";
-
+/*click : an interaction when an user clicks on specific element.  
+        We can respond to click by passing  a callback 
+        to onClick event handler.
+*/
+import Button from "./Button";
+import ProfilePicture from "./ProfilePicture";
 
 function App() {
   return(
     <>
-        <Header/>
-        <Footer/>
-        <Food/>
+        <Button></Button>
+        <ProfilePicture></ProfilePicture>
     </>
             
   );
